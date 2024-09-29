@@ -1,0 +1,7 @@
+__pycache__
+*.yaml
+*.html*
+*.twig
+!example*
+.idea/
+.vscode/

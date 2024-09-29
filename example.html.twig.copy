@@ -1,0 +1,45 @@
+{%  extends 'base.html.twig' %}
+{% block body %}
+<header class="header">
+ <a class="header-logo" href="/">
+  <img alt="Logo" height="44px" src="{{ asset('images/logo.svg') }}" width="187px"/>
+ </a>
+ <nav class="header-menu">
+  <ul class="header-menu-list">
+   <li class="header-item">
+    <a class="header-link" href="">
+     {a.classess}
+    </a>
+   </li>
+   <li class="header-item">
+    <a class="header-link" href="">
+     {a.timetable}
+    </a>
+   </li>
+   <li class="header-item">
+    <a class="header-link" href="">
+     {a.clubs}
+    </a>
+   </li>
+   <li class="header-item">
+    <a class="header-link" href="">
+     {a.nutrition}
+    </a>
+   </li>
+   <li class="header-item">
+    <a class="header-link" href="">
+     {a.free_trial}
+    </a>
+   </li>
+   <li class="header-item is-search">
+    <a class="header-link" href="">
+     {a.search}
+    </a>
+   </li>
+  </ul>
+  <button class="header-menu-button white">
+   {button.login}
+  </button>
+ </nav>
+</header>
+{% endblock %}
